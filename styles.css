@@ -20,6 +20,15 @@ h1, h2, p{
     text-align: center;
 }
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    
+}
+
 .item p{
     display: inline-block;
     margin-top: 5px;
@@ -36,11 +45,27 @@ h1, h2, p{
     text-align: right;
     width: 35%;
 }
+hr{
+    height: 5px;
+    background-color: #1b2b55;
+    border-color: yellow;
+}
+
+.bottom-line{
+    margin-top: 30px;
+}
 
 /* -- Footer --- */
 
+footer{
+    font-size: 15px;
+}
+
 .address{
     margin-bottom: 10px;
+}
+a{
+    color: #1b2b55;
 }
 
 a:visited{
