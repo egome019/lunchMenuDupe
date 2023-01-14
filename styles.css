@@ -3,6 +3,7 @@ body{
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 20px;
+    color: #1b2b55;
 }
 
 .container{
@@ -19,19 +20,37 @@ h1, h2, p{
     text-align: center;
 }
 
-.item{
+.item p{
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.food{
+.food, .drink{
     text-align: left;
-    width: 50%;
+    width: 60%;
 }
 
 .price{
     text-align: right;
-    width: 50%;
+    width: 35%;
+}
+
+/* -- Footer --- */
+
+.address{
+    margin-bottom: 10px;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: #1b2b55;
 }
