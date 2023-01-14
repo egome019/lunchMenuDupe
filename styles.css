@@ -1,6 +1,6 @@
 body{
     background-image: url("https://www.aegworldwide.com/sites/default/files/styles/extra_large/public/sport/2019-07/Zlatan.jpeg?itok=GDQ50mEJ");
-    background-size: contain;
+    background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 20px;
 }
@@ -8,8 +8,30 @@ body{
 .container{
     background-color: whitesmoke;
     opacity: .6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 
-.center{
+h1, h2, p{
     text-align: center;
+}
+
+.item{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.food{
+    text-align: left;
+    width: 50%;
+}
+
+.price{
+    text-align: right;
+    width: 50%;
 }
